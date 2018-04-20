@@ -73,3 +73,4 @@ D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.M
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.csproj.GenerateResource.Cache
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedaPartTable.resources
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedItemTypetable.resources
+D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedItemBigTable.resources

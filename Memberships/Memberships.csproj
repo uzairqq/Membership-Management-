@@ -208,9 +208,14 @@
     <Compile Include="Migrations\201804201043448_Created ItemType table.Designer.cs">
       <DependentUpon>201804201043448_Created ItemType table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804201125003_Created Item Big Table.cs" />
+    <Compile Include="Migrations\201804201125003_Created Item Big Table.Designer.cs">
+      <DependentUpon>201804201125003_Created Item Big Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ItemType.cs" />
     <Compile Include="Models\Part.cs" />
@@ -316,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804201043448_Created ItemType table.resx">
       <DependentUpon>201804201043448_Created ItemType table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804201125003_Created Item Big Table.resx">
+      <DependentUpon>201804201125003_Created Item Big Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
