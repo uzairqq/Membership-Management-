@@ -80,3 +80,4 @@ D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.M
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.AddedSubscriptionMigration.resources
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedProductItemtable.resources
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedSubscriptionProduct.resources
+D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedUserSubscriptionTable.resources

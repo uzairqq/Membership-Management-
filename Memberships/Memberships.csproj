@@ -236,6 +236,10 @@
     <Compile Include="Migrations\201804201511179_Created Subscription Product.Designer.cs">
       <DependentUpon>201804201511179_Created Subscription Product.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804201519588_Created User Subscription Table.cs" />
+    <Compile Include="Migrations\201804201519588_Created User Subscription Table.Designer.cs">
+      <DependentUpon>201804201519588_Created User Subscription Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -250,6 +254,7 @@
     <Compile Include="Models\Section.cs" />
     <Compile Include="Models\Subscription.cs" />
     <Compile Include="Models\SubscriptionProduct.cs" />
+    <Compile Include="Models\UserSubscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -372,6 +377,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804201511179_Created Subscription Product.resx">
       <DependentUpon>201804201511179_Created Subscription Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804201519588_Created User Subscription Table.resx">
+      <DependentUpon>201804201519588_Created User Subscription Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
