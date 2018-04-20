@@ -29,5 +29,7 @@ namespace Memberships.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Section> Sections { get; set; }
     }
 }
