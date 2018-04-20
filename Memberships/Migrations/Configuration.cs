@@ -9,7 +9,10 @@ namespace Memberships.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+
+            //when we change the data type of a column in table that will result data loss in that column or table.
+            AutomaticMigrationDataLossAllowed = true; //when going for production set it to false 
         }
 
         protected override void Seed(Memberships.Models.ApplicationDbContext context)
