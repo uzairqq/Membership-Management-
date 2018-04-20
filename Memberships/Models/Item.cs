@@ -35,7 +35,7 @@ namespace Memberships.Models
         public string HtmlShort
         {
             get { return Html == null || 
-                         Html.Length < 50 ? Html : Html.Substring(0, 50); }
+                         Html.Length < 50 ? Html : Html.Substring(0, 50); }//it is readony not to assign any value
         }
 
         public int  ProductId { get; set; }
@@ -43,10 +43,11 @@ namespace Memberships.Models
         public int  SectionId { get; set; }
         public int  PartId { get; set; }
         public int IsFree { get; set; }
-
+        //these are ID's certain tables
         [DisplayName("Item Types")]
-        public ICollection<ItemType> ItemTypes { get; set; }
-
+        public ICollection<ItemType> ItemTypes { get; set; }  ///
+            //We should avoid ienumarable and list because of lazy loading 
+        //should use ICollection of multiple things
         [DisplayName("Sections")]
         public ICollection<Section> Sections { get; set; }
 
