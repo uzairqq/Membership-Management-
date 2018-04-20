@@ -75,3 +75,4 @@ D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.M
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedItemTypetable.resources
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedItemBigTable.resources
 D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedProductTable.resources
+D:\AspMVC\Membership-Management-\Memberships\Memberships\obj\Debug\Memberships.Migrations.CreatedProductTypetable.resources

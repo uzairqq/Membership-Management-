@@ -216,12 +216,17 @@
     <Compile Include="Migrations\201804201211526_Created Product Table.Designer.cs">
       <DependentUpon>201804201211526_Created Product Table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804201219297_Created Product Type table.cs" />
+    <Compile Include="Migrations\201804201219297_Created Product Type table.Designer.cs">
+      <DependentUpon>201804201219297_Created Product Type table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ItemType.cs" />
+    <Compile Include="Models\ProductType.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Part.cs" />
     <Compile Include="Models\Section.cs" />
@@ -332,6 +337,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804201211526_Created Product Table.resx">
       <DependentUpon>201804201211526_Created Product Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804201219297_Created Product Type table.resx">
+      <DependentUpon>201804201219297_Created Product Type table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
