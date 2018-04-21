@@ -240,6 +240,10 @@
     <Compile Include="Migrations\201804201519588_Created User Subscription Table.Designer.cs">
       <DependentUpon>201804201519588_Created User Subscription Table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804201534155_Added FirstName etc feilds in AspNetUsers.cs" />
+    <Compile Include="Migrations\201804201534155_Added FirstName etc feilds in AspNetUsers.Designer.cs">
+      <DependentUpon>201804201534155_Added FirstName etc feilds in AspNetUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -380,6 +384,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804201519588_Created User Subscription Table.resx">
       <DependentUpon>201804201519588_Created User Subscription Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804201534155_Added FirstName etc feilds in AspNetUsers.resx">
+      <DependentUpon>201804201534155_Added FirstName etc feilds in AspNetUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
