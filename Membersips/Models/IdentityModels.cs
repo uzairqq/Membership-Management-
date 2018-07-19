@@ -28,6 +28,7 @@ namespace Membersips.Models
         public DbSet<ProductType> ProductTypes { get; set; }
         public DbSet<ProductLinkText> ProductLinkTexts { get; set; }
         public DbSet<Subscription> Subscriptions{ get; set; }
+        public DbSet<ProductItem> ProductItems{ get; set; }
 
         public ApplicationDbContext()
             : base("Memberships", throwIfV1Schema: false)
