@@ -20,8 +20,10 @@ namespace Membersips.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Section> Sections { get; set; }
+
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("Memberships", throwIfV1Schema: false)
         {
         }
 
@@ -29,5 +31,7 @@ namespace Membersips.Models
         {
             return new ApplicationDbContext();
         }
+
+       
     }
 }
