@@ -22,6 +22,7 @@ namespace Membersips.Models
     {
         public DbSet<Section> Sections { get; set; }
         public DbSet<Part> Parts{ get; set; }
+        public DbSet<ItemType> ItemTypes{ get; set; }
 
         public ApplicationDbContext()
             : base("Memberships", throwIfV1Schema: false)

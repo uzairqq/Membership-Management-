@@ -7,8 +7,8 @@ using System.Web;
 
 namespace Membersips.Models
 {
-    [Table("Part")]
-    public class Part
+    [Table("ItemType") ]
+    public class ItemType
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
