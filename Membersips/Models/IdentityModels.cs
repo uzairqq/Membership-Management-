@@ -21,6 +21,7 @@ namespace Membersips.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Section> Sections { get; set; }
+        public DbSet<Part> Parts{ get; set; }
 
         public ApplicationDbContext()
             : base("Memberships", throwIfV1Schema: false)
