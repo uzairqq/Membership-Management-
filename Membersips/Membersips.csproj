@@ -272,6 +272,8 @@
     <Content Include="Areas\Admin\Views\Shared\_BackToListPartialView.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_EditButtonPartialView.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_CreateButtonPartialView.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_SmallButtonPartialView.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_TableButtonPartial.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
