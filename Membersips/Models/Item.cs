@@ -27,12 +27,14 @@ namespace Membersips.Models
         public string Url { get; set; }
 
         [MaxLength(1048)] 
+        [DisplayName("Image Url")]
         public string ImageUrl { get; set; }
 
         [AllowHtml] 
         public string Html { get; set; }
 
         [DefaultValue(0)]
+        [DisplayName("Wait Days")]
         public int WaitDays { get; set; }
 
         public string HtmlShort => Html == null || Html.Length < 50 ? Html : Html.Substring(0, 50);
