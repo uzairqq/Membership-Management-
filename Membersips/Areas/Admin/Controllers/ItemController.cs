@@ -39,7 +39,13 @@ namespace Membersips.Areas.Admin.Controllers
         // GET: Admin/Item/Create
         public ActionResult Create()
         {
-            return View();
+            var model = new Item()
+            {
+                ItemTypes = db.ItemTypes.ToList(),
+                Parts = db.Parts.ToList(),
+                Sections = db.Sections.ToList()
+            };
+            return View(model);
         }
 
         // POST: Admin/Item/Create
