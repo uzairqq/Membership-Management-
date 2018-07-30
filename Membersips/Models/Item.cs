@@ -45,7 +45,7 @@ namespace Membersips.Models
 
         public int PartId { get; set; }
 
-        public int IsFree { get; set; }
+        public bool IsFree { get; set; }
 
         [DisplayName("Item Type")]
         public ICollection<ItemType> ItemTypes { get; set; }
